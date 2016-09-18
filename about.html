@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--link rel="icon" href="../../favicon.ico"-->
+
+  <title>About the Team</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href="starter-template.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://developers.google.com/maps/documentation/javascript/demos/demos.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+
+  <link rel="stylesheet" type="text/css" href="./custom.css">
+
+
+
+  <img src="http://cdn.betakit.com/wp-content/uploads/2016/08/Hack-the-North.jpg" alt="Hack for a Cause" style="width:100%">
+
+  <div class="spacing"></div>
+
+  <div id="band" class="container text-center">
+    <h3>OUR TEAM</h3>
+    <p><em>From All Across the Continent we Assembled</em></p>
+    <p>The four-person team, set out to build cool things with hundreds of other brilliant minds. We hope you like what you see and feel free to reach out to us by clicking our pictures below.</p>
+    <br>
+
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Garrett Seward</strong></p><br>
+        <a href="#demo1" data-toggle="collapse">
+          <img src="https://avatars1.githubusercontent.com/u/2507359?v=3&s=400" class="img-circle person" alt="Garrett Seward" width="255" height="255">
+        </a>
+        <div id="demo1" class="collapse">
+          <p>Industry Professional</p>
+          <p>https://github.com/spectralsun</p>
+          <p>http://spectralsun.com/</p>
+        </div>
+      </div>
+       <div class="col-sm-4">
+        <p class="text-center"><strong>Scott Lively</strong></p><br>
+        <a href="#demo2" data-toggle="collapse">
+          <img src="https://avatars3.githubusercontent.com/u/3362482?v=3&s=400" class="img-circle person" alt="Scott Lively" width="255" height="255">
+        </a>
+        <div id="demo2" class="collapse">
+          <p>Industry Professional</p>
+          <p>https://github.com/slively</p>
+          <p>https://www.grubhub.com/</p>
+        </div>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Joseph Livni</strong></p><br>
+        <a href="#demo4" data-toggle="collapse">
+          <img src="https://avatars0.githubusercontent.com/u/15317353?v=3&s=400" class="img-circle person" alt="Joseph Livni" width="255" height="255">
+        </a>
+        <div id="demo4" class="collapse">
+          <p>UO Computer Science Student</p>
+          <p>https://github.com/Lebonesco</p>
+        </div>
+      </div>
+       <div class="col-sm-4">
+        <p class="text-center"><strong>Edward Szczepanski</strong></p><br>
+        <a href="#demo5" data-toggle="collapse">
+          <img src="https://avatars3.githubusercontent.com/u/5415430?v=3&s=400" class="img-circle person" alt="Random Name" width="255" height="255">
+        </a>
+        <div id="demo5" class="collapse">
+          <p>UO Computer Science Student</p>
+          <p>https://github.com/edwardszczepanski</p>
+          <p>http://edwardszczepanski.com</p>
+        </div>
+      </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+          <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+                <input type="number" class="form-control" id="psw" placeholder="How many?">
+              </div>
+              <div class="form-group">
+                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              </div>
+                <button type="submit" class="btn btn-block">Pay
+                  <span class="glyphicon glyphicon-ok"></span>
+                </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+              <span class="glyphicon glyphicon-remove"></span> Cancel
+            </button>
+            <p>Need <a href="#">help?</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+
+  <footer class="container-fluid text-center">
+    <p>Copyright © 2016 <a href="http://xkcd.com/327/">Bobby Drop Tables</a></p>
+    <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links in navbar + footer link
+    $("footer a[href='#myPage']").on('click', function(event) {
+    event.preventDefault();
+
+    var hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      window.location.hash = hash;
+      });
+    });
+  })
+  </script>
+  </footer>
+
+
+
+  <!-- Bootstrap core JavaScripUse this page to find the best city for yout
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcULs3Vm0S7eJPMgEtzJZLksfir30hkpg&callback=initMap"
+  async defer></script>
+</body>
+</html>
+
+
+<!-- Bootstrap core JavaScripUse this page to find the best city for yout
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script>window.jQuery || document.write('<script src="./js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
